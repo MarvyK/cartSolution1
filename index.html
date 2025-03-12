@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="cart-container">
+      <!-- Left Column -->
+      <div class="cart-details">
+        <section class="cart-header">
+          <h2 class="cta">Your cart</h2>
+        </section>
+        <section class="product-details">
+          <h3 class="description">Product</h3>
+          <img src="placeholder-image.jpg" alt="Red powershell jacket" class="img-products img-cart" />
+          <p class="description">PowerShell Color:Red Size:L</p>
+
+          <div class="product-pricing">
+            <div class="price-item">
+              <h3 class="description">Each</h3>
+              <p class="description">$39.99</p>
+            </div>
+
+            <div class="price-item">
+              <h3 class="description">Quantity</h3>
+              <label for="quantity-dropdown">1</label>
+              <select id="quantity-dropdown"></select>
+            </div>
+
+            <div class="price-item">
+              <h3 class="description">Total</h3>
+              <p class="description">$39.99</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column -->
+      <aside class="order-sidebar">
+        <section class="order-summary">
+          <h2 class="cta">Order summary</h2>
+          <p class="description">Subtotal $39.99</p>
+          <h3 class="description">Estimated total $39.99</h3>
+          <a href="payment-detail.html" class="cta">Checkout</a>
+        </section>
+        <section class="shipping-info">
+          <h3 class="description">Free shipping</h3>
+          <p class="description">Free shipping for orders over $ 29.99</p>
+          <h3 class="description">Fast delivery</h3>
+          <p class="description">Delivery from 2-5 working days</p>
+          <h3 class="description">Free returns</h3>
+          <p class="description">40 days open return</p>
+        </section>
+      </aside>
+    </main>
+  </body>
+</html>
